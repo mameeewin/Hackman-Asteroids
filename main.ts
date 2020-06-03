@@ -123,6 +123,7 @@ tiles.setTilemap(tiles.createTilemap(
             [myTiles.tile0,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4],
             TileScale.Sixteen
         ))
+info.startCountdown(60)
 let HackManPlayer = sprites.create(img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
