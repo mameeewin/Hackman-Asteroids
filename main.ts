@@ -142,21 +142,19 @@ tiles.placeOnRandomTile(HackManPlayer, myTiles.tile3)
 scene.cameraFollowSprite(HackManPlayer)
 for (let index = 0; index < 86; index++) {
     FoodAsteroid = sprites.create(img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
+. . . . c . . 
+. c a a a c . 
+c c f a b b c 
+b f f b f a a 
+b b a b f f a 
+c b f b b a c 
+. b a f c c . 
+. . b b c . . 
 `, SpriteKind.Player)
+    tiles.placeOnRandomTile(FoodAsteroid, myTiles.tile4)
 }
+forever(function () {
+    if (info.score() == 86) {
+        game.over(true)
+    }
+})
