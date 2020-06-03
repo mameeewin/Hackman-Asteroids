@@ -1,10 +1,9 @@
 # hackman-asteroids ![Build status badge](https://github.com/mameeewin/hackman-asteroids/workflows/MakeCode/badge.svg)
+https://makecode.com/_a6i2RbdXPbgE
 
 
-
-## Use this extension
-
-This repository can be added as an **extension** in MakeCode.
+## Game in arcade
+This repository can be added as an **game in arcade** in MakeCode.
 
 * open https://arcade.makecode.com/
 * click on **New Project**
@@ -19,12 +18,7 @@ To edit this repository in MakeCode.
 * click on **Import** then click on **Import URL**
 * paste the repository URL and click import
 
-## Blocks preview
 
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
-![A rendered view of the blocks](https://github.com/mameeewin/hackman-asteroids/raw/master/.makecode/blocks.png)
 
 ## Supported targets
 
